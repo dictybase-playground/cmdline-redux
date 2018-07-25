@@ -1,0 +1,818 @@
+{
+  "pageInfo": {
+    "total": 1,
+    "current": 1,
+    "resultsPerPage": 100
+  },
+  "results": [
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20170622",
+      "evidenceCode": "ECO:0000315",
+      "goAspect": "biological_process",
+      "goEvidence": "IMP",
+      "goName": "heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules",
+      "goId": "GO:0007157",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851961",
+      "reference": "PMID:11071787",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20090504",
+      "evidenceCode": "ECO:0000315",
+      "goAspect": "biological_process",
+      "goEvidence": "IMP",
+      "goName": "cell-cell recognition",
+      "goId": "GO:0009988",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851962",
+      "reference": "PMID:19285397",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20170622",
+      "evidenceCode": "ECO:0000316",
+      "goAspect": "biological_process",
+      "goEvidence": "IGI",
+      "goName": "calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules",
+      "goId": "GO:0016338",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851963",
+      "reference": "PMID:11071787",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "P08796",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150603",
+      "evidenceCode": "ECO:0000316",
+      "goAspect": "biological_process",
+      "goEvidence": "IGI",
+      "goName": "sorocarp stalk cell differentiation",
+      "goId": "GO:0031149",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851964",
+      "reference": "PMID:25894230",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "Q55GQ4",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20051110",
+      "evidenceCode": "ECO:0000315",
+      "goAspect": "biological_process",
+      "goEvidence": "IMP",
+      "goName": "aggregation involved in sorocarp development",
+      "goId": "GO:0031152",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851965",
+      "reference": "PMID:14651934",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150602",
+      "evidenceCode": "ECO:0000270",
+      "goAspect": "biological_process",
+      "goEvidence": "IEP",
+      "goName": "aggregation involved in sorocarp development",
+      "goId": "GO:0031152",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851966",
+      "reference": "PMID:25887420",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20130301",
+      "evidenceCode": "ECO:0000315",
+      "goAspect": "biological_process",
+      "goEvidence": "IMP",
+      "goName": "aggregation involved in sorocarp development",
+      "goId": "GO:0031152",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851967",
+      "reference": "PMID:7926779",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20140929",
+      "evidenceCode": "ECO:0000316",
+      "goAspect": "biological_process",
+      "goEvidence": "IGI",
+      "goName": "cell-cell self recognition",
+      "goId": "GO:0097656",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851968",
+      "reference": "PMID:21700835",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "Q54V07",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20170125",
+      "evidenceCode": "ECO:0000315",
+      "goAspect": "biological_process",
+      "goEvidence": "IMP",
+      "goName": "socially cooperative development",
+      "goId": "GO:0099120",
+      "qualifier": "acts_upstream_of_or_within",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851969",
+      "reference": "PMID:23910661",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150319",
+      "evidenceCode": "ECO:0000353",
+      "goAspect": "molecular_function",
+      "goEvidence": "IPI",
+      "goName": "protein binding",
+      "goId": "GO:0005515",
+      "qualifier": "enables",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851970",
+      "reference": "PMID:23477311",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "Q54V07",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150320",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "molecular_function",
+      "goEvidence": "IDA",
+      "goName": "protein homodimerization activity",
+      "goId": "GO:0042803",
+      "qualifier": "enables",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851971",
+      "reference": "PMID:24490801",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "happens_during",
+              "id": "0030587",
+              "db": "GO"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150320",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "molecular_function",
+      "goEvidence": "IDA",
+      "goName": "protein heterodimerization activity",
+      "goId": "GO:0046982",
+      "qualifier": "enables",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851972",
+      "reference": "PMID:24490801",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "has_direct_input",
+              "id": "Q54V07",
+              "db": "UniProtKB"
+            },
+            {
+              "relation": "happens_during",
+              "id": "0030587",
+              "db": "GO"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180330",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "molecular_function",
+      "goEvidence": "IDA",
+      "goName": "receptor ligand activity",
+      "goId": "GO:0048018",
+      "qualifier": "enables",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851973",
+      "reference": "PMID:29038229",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "has_direct_input",
+              "id": "DDB_G0280689",
+              "db": "DDB"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20151127",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "biological_process",
+      "goEvidence": "IDA",
+      "goName": "heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules",
+      "goId": "GO:0007157",
+      "qualifier": "involved_in",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851974",
+      "reference": "PMID:23477311",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "has_participant",
+              "id": "Q54V07",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180411",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "biological_process",
+      "goEvidence": "IDA",
+      "goName": "regulation of signaling receptor activity",
+      "goId": "GO:0010469",
+      "qualifier": "involved_in",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851975",
+      "reference": "PMID:29038229",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "has_regulation_target",
+              "id": "DDB_G0280689",
+              "db": "DDB"
+            },
+            {
+              "relation": "happens_during",
+              "id": "0099120",
+              "db": "GO"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20151201",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "biological_process",
+      "goEvidence": "IDA",
+      "goName": "positive regulation of protein homodimerization activity",
+      "goId": "GO:0090073",
+      "qualifier": "involved_in",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851976",
+      "reference": "PMID:24490801",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "has_regulation_target",
+              "id": "Q54V07",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150528",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "biological_process",
+      "goEvidence": "IDA",
+      "goName": "cell-cell adhesion",
+      "goId": "GO:0098609",
+      "qualifier": "involved_in",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851977",
+      "reference": "PMID:1577768",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180123",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "biological_process",
+      "goEvidence": "IDA",
+      "goName": "altruistic, chimeric sorocarp development",
+      "goId": "GO:0099138",
+      "qualifier": "involved_in",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851978",
+      "reference": "PMID:28120827",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20130605",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "biological_process",
+      "goEvidence": "IDA",
+      "goName": "response to catechin",
+      "goId": "GO:1902168",
+      "qualifier": "involved_in",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851979",
+      "reference": "PMID:23516620",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180721",
+      "evidenceCode": "ECO:0000322",
+      "goAspect": "cellular_component",
+      "goEvidence": "IEA",
+      "goName": "plasma membrane",
+      "goId": "GO:0005886",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851980",
+      "reference": "GO_REF:0000037",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "KW-1003",
+              "db": "UniProtKB-KW"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180721",
+      "evidenceCode": "ECO:0000322",
+      "goAspect": "cellular_component",
+      "goEvidence": "IEA",
+      "goName": "plasma membrane",
+      "goId": "GO:0005886",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851981",
+      "reference": "GO_REF:0000039",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "SL-0039",
+              "db": "UniProtKB-SubCell"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20050217",
+      "evidenceCode": "ECO:0000304",
+      "goAspect": "cellular_component",
+      "goEvidence": "TAS",
+      "goName": "integral component of plasma membrane",
+      "goId": "GO:0005887",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851982",
+      "reference": "PMID:15261655",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20150320",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "cellular_component",
+      "goEvidence": "IDA",
+      "goName": "external side of plasma membrane",
+      "goId": "GO:0009897",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851983",
+      "reference": "PMID:24490801",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180721",
+      "evidenceCode": "ECO:0000322",
+      "goAspect": "cellular_component",
+      "goEvidence": "IEA",
+      "goName": "membrane",
+      "goId": "GO:0016020",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851984",
+      "reference": "GO_REF:0000037",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "KW-0472",
+              "db": "UniProtKB-KW"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180721",
+      "evidenceCode": "ECO:0000322",
+      "goAspect": "cellular_component",
+      "goEvidence": "IEA",
+      "goName": "integral component of membrane",
+      "goId": "GO:0016021",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851985",
+      "reference": "GO_REF:0000037",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "KW-0812",
+              "db": "UniProtKB-KW"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180721",
+      "evidenceCode": "ECO:0000322",
+      "goAspect": "cellular_component",
+      "goEvidence": "IEA",
+      "goName": "cell junction",
+      "goId": "GO:0030054",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851986",
+      "reference": "GO_REF:0000037",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "KW-0965",
+              "db": "UniProtKB-KW"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20180721",
+      "evidenceCode": "ECO:0000322",
+      "goAspect": "cellular_component",
+      "goEvidence": "IEA",
+      "goName": "cell junction",
+      "goId": "GO:0030054",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851987",
+      "reference": "GO_REF:0000039",
+      "withFrom": [
+        {
+          "connectedXrefs": [
+            {
+              "id": "SL-0038",
+              "db": "UniProtKB-SubCell"
+            }
+          ]
+        }
+      ],
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "UniProt",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20170622",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "cellular_component",
+      "goEvidence": "IDA",
+      "goName": "cell-cell contact zone",
+      "goId": "GO:0044291",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851988",
+      "reference": "PMID:11071787",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": null,
+      "targetSets": null,
+      "symbol": "tgrC1"
+    },
+    {
+      "name": null,
+      "synonyms": null,
+      "interactingTaxonId": 0,
+      "date": "20151201",
+      "evidenceCode": "ECO:0000314",
+      "goAspect": "cellular_component",
+      "goEvidence": "IDA",
+      "goName": "protein complex involved in cell-cell adhesion",
+      "goId": "GO:0098635",
+      "qualifier": "part_of",
+      "geneProductId": "UniProtKB:P42523",
+      "id": "UniProtKB:P42523!482851989",
+      "reference": "PMID:24490801",
+      "withFrom": null,
+      "taxonId": 44689,
+      "taxonName": null,
+      "assignedBy": "dictyBase",
+      "extensions": [
+        {
+          "connectedXrefs": [
+            {
+              "relation": "has_participant",
+              "id": "Q54V07",
+              "db": "UniProtKB"
+            }
+          ]
+        }
+      ],
+      "targetSets": null,
+      "symbol": "tgrC1"
+    }
+  ],
+  "numberOfHits": 29
+}
