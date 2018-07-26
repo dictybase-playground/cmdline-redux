@@ -1,4 +1,5 @@
 import { createStore, combineReducers, applyMiddleware } from "redux"
+import path from "path"
 import util from "util"
 import thunk from "redux-thunk"
 import fetch from "node-fetch"
@@ -193,23 +194,35 @@ const gene2Goa = id => {
   }
 }
 
-const store = createStore(
-  combineReducers({ uniprot: uniProtReducer, goa: goaReducer }),
-  applyMiddleware(thunk),
-)
-
-store.dispatch(gene2Goa("DDB_G0288511"))
-console.log(
-  "%s %s %o",
-  dayjs().format("ddd MMM D YYYY h:mm:ss"),
-  "state after sending gene id",
-  store.getState(),
-)
-
-setTimeout(() => {
-  console.log(
-    "%s new state %s",
-    dayjs().format("ddd MMM D YYYY h:mm:ss"),
-    util.inspect(store.getState(), { depth: 12 }),
+const runner = geneId => {
+  const store = createStore(
+    combineReducers({ uniprot: uniProtReducer, goa: goaReducer }),
+    applyMiddleware(thunk),
   )
-}, 3000)
+
+  store.dispatch(gene2Goa(geneId))
+  console.log(
+    "%s %s %o",
+    dayjs().format("ddd MMM D YYYY h:mm:ss"),
+    "state after sending gene id",
+    store.getState(),
+  )
+
+  setTimeout(() => {
+    console.log(
+      "%s new state %s",
+      dayjs().format("ddd MMM D YYYY h:mm:ss"),
+      util.inspect(store.getState(), { depth: 12 }),
+    )
+  }, 3000)
+}
+
+if (process.argv.length <= 2) {
+  console.error(
+    "need a gene id\n%s %s",
+    path.basename(process.argv[1]),
+    "<gene-id>",
+  )
+  process.exit(-1)
+}
+runner(process.argv[2])
