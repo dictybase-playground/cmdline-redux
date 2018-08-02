@@ -41,13 +41,13 @@ const fetchUniprotFailure = error => {
   }
 }
 
-const fetchUniprotSuccess = (id, uniprotId) => {
+const fetchUniprotSuccess = (id, uniprotIds) => {
   return {
     type: uniprotTypes.FETCH_UNIPROT_SUCCESS,
     payload: {
       isFetching: false,
       id,
-      uniprotId,
+      uniprotIds,
     },
   }
 }
@@ -59,7 +59,10 @@ const geneId2Uniprot = id => {
     if (res.ok) {
       if (res.headers.get("content-length") > 0) {
         const uniprotId = await res.text()
-        dispatch(fetchUniprotSuccess(id, uniprotId.trim()))
+        const uniprotArr = uniprotId.split("\n").filter(id => {
+          return id
+        })
+        dispatch(fetchUniprotSuccess(id, uniprotArr))
       } else {
         dispatch(fetchUniprotFailure(`no uniprot id for ${id}`))
       }
@@ -93,12 +96,12 @@ const makeGoaURL = id => {
   return `${base}${query}${id}`
 }
 
-const fetchGoaRequest = id => {
+const fetchGoaRequest = ids => {
   return {
     type: goaTypes.FETCH_GOA_REQUEST,
     payload: {
       isFetching: true,
-      id,
+      ids,
     },
   }
 }
@@ -147,18 +150,28 @@ const normalizeGoa = goaResp => {
   }
 }
 
-const fetchGoa = id => {
+const fetchGoa = ids => {
   return async dispatch => {
-    dispatch(fetchGoaRequest(id))
-    const res = await fetch(makeGoaURL(id), {
-      headers: { Accept: "application/json" },
+    dispatch(fetchGoaRequest(ids))
+    const idArr = ids.map(async id => {
+      const res = await fetch(makeGoaURL(id), {
+        headers: { Accept: "application/json" },
+      })
+      if (res.ok) {
+        const json = await res.json()
+        dispatch(fetchGoaSuccess(json))
+      } else {
+        dispatch(fetchGoaFailure(res.statusText))
+      }
     })
-    if (res.ok) {
-      const json = await res.json()
-      dispatch(fetchGoaSuccess(json))
-    } else {
-      dispatch(fetchGoaFailure(res.statusText))
-    }
+
+    const allIds = await Promise.all(idArr)
+
+    // const mergedArr = allIds.reduce((acc, curr) => {
+    //   return acc.concat(curr)
+    // }, [])
+
+    return allIds
   }
 }
 
@@ -185,8 +198,8 @@ const gene2Goa = id => {
     try {
       await dispatch(geneId2Uniprot(id))
       const { uniprot } = getState()
-      if (uniprot.uniprotId) {
-        await dispatch(fetchGoa(uniprot.uniprotId))
+      if (uniprot.uniprotIds) {
+        await dispatch(fetchGoa(uniprot.uniprotIds))
       }
     } catch (error) {
       dispatch(fetchGoaFailure(error.message))
